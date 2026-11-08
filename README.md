@@ -1,7 +1,5 @@
 # LLM-Prompt-Evaluator-Pipeline
 
-# Prompt Evaluation Pipeline
-
 Evaluates **prompt versions**, not models. The prompt is the only variable. Model, temperature, test data and judge stay fixed.
 
 ---
