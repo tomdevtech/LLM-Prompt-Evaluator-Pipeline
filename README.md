@@ -2,8 +2,6 @@
 
 Evaluates **prompt versions**, not models. The prompt is the only variable. Model, temperature, test data and judge stay fixed.
 
----
-
 ## Repo structure
 
 ```
@@ -43,7 +41,7 @@ LLM-Prompt-Prompt-Evaluator-Pipeline/
 ## Workflow in 6 steps
 
 | # | Step | What happens |
-|---|---|---|---|
+|---|---|---|
 | 1 | Draft a prompt | New version as a new file |
 | 2 | Create data and criteria | Golden + edge cases, rubric, critical categories |
 | 3 | Run through the model | Fixed model, temperature 0, repeats, save metadata |
